@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: arunagri03/pythonapp
+          image: arunagri03/pythonapp:v2
           ports:
             - containerPort: 5000
           resources:
