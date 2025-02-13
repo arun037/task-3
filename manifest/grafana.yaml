@@ -15,7 +15,7 @@ spec:
         app: grafana
     spec:
       containers:
-        - name: grafana_cont
+        - name: grafana-cont
           image: grafana/grafana
           ports:
             - containerPort: 3000
@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: grafana_svc
+  name: grafana-svc
 spec:
   selector:
     app: grafana
