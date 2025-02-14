@@ -99,5 +99,5 @@ dd if=/dev/zero of=/dev/null &
 ```
 
 ## Conclusion
-This setup ensures that the Flask app is monitored using Prometheus and Grafana while being scalable with Kubernetes' Horizontal Pod Autoscaler. 🚀
+This setup ensures that the Flask app is monitored using Prometheus and Grafana while being scalable with Kubernetes' Horizontal Pod Autoscaler.
 
